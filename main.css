@@ -1,0 +1,48 @@
+/* Fondo con gradiente */
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    border-radius: 15px;
+    background: white;
+}
+
+/* Sombra para la tarjeta */
+.shadow-lg {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el campo de entrada */
+input {
+    border: 2px solid #acb6e5;
+    border-radius: 8px;
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilo para el resultado */
+#resultado {
+    font-size: 1.2em;
+}

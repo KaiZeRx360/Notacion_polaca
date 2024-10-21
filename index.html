@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notación Polaca</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card shadow-lg p-4">
+            <h1 class="text-center text-primary">Notación Polaca</h1>
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="expresion" placeholder="Ingrese la expresión" required>
+            </div>
+            <button class="btn btn-primary btn-block btn-lg" id="convertir">Transformar</button>
+            <button class="btn btn-secondary btn-block btn-lg mt-2" id="limpiar">Limpiar</button>
+            <h2 class="mt-4 text-center text-success" id="resultado"></h2>
+            <h3 class="mt-4 text-center" id="resultadoFinal"></h3>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
